@@ -1,0 +1,18 @@
+{
+    "port": 80,
+    "mongoose": {
+        "url": "mongodb://ActionKlo:12345@ds141328.mlab.com:41328/justdiplom"
+    },
+    "session": {
+        "secret": "TopSecret",
+        "key": "sid",
+        "cookie": {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null
+        }
+    },
+    "yametrika": {
+        "oauth": "AQAAAAAc5T6UAAQuh_qHr7JOGUyhmi72Rc5RVVM"
+    }
+}

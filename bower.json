@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "description": "json",
+  "main": "app.js",
+  "authors": [
+    "ActionKlo <actionclaw@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "qwe"
+  ],
+  "homepage": "https://github.com/ActionKlo/Diplom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chartist": "^0.11.0",
+    "bootstrap": "^3.3.7",
+    "vue": "^2.2.6"
+  }
+}
