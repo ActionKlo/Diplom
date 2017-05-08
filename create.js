@@ -6,7 +6,7 @@ var User = require('./models/user').User;
 // 2. create & save 3 users
 // 3. close connection
 
-//test commit
+//test second commit
 
 mongoose.connection.on('open', function () {
 	var db = mongoose.connection.db;
