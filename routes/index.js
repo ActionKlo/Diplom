@@ -32,6 +32,7 @@ module.exports = (app) => {
     app.get('/404', require('./404').get);
 
     app.use((req, res, next) => {
-        res.status(404).redirect('/404');
+        res.status(404).render('./404');
+
     });
 }

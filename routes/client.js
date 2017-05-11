@@ -19,7 +19,7 @@ exports.get = (req, res) => {
             '_id': id
         }, (err, user) => {
             if (err) {
-                return res.redirect('/404');
+                return res.status(404).render('./404');
             } else {
                 callback(null, user);
             }
@@ -29,8 +29,8 @@ exports.get = (req, res) => {
     function second(user, callback) {
         console.log(user);
 
-        if (!user) {
-            return res.redirect('/404');
+        if (!user.length) {
+            return res.status(404).render('./404');
         }
 
         callback(null, user);

@@ -2,11 +2,11 @@ var User = require('../models/user').User;
 var async = require('async');
 var mongoose = require('../libs/mongoose');
 
-exports.get = function (req, res) {
+exports.get = (req, res) => {
     res.render('signup', {});
 };
 
-exports.post = function (req, res, next) {
+exports.post = (req, res, next) => {
     var username = req.body.username;
     var company = req.body.company;
     var phone = req.body.phone;
@@ -17,7 +17,7 @@ exports.post = function (req, res, next) {
 
     if (password === password1) {
         async.parallel([
-            function (callback) {
+            (callback) => {
                 var user = new User({
                     'name': username,
                     'company': company,
@@ -26,12 +26,12 @@ exports.post = function (req, res, next) {
                     'urlSite': url,
                     'password': password
                 });
-                user.save(function (err) {
+                user.save((err) => {
                     console.log(user);
                     callback(err, user);
                 });
             }
-        ], function (err, results) {
+        ], (err, results) => {
             res.end();
         });
     } else {

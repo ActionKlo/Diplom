@@ -4,13 +4,13 @@ var mongoose = require('mongoose');
 var config = require('../config');
 var request = require('request');
 
-exports.get = function (req, res) {
+exports.get = (req, res) => {
     var id = req.params.id
 
     async.waterfall([
         first,
         second
-    ], function (err, user, results) {
+    ], (err, user, results) => {
         var results = JSON.parse(results.one);
         console.log(user + " : " + results);
         console.log(typeof (user) + " : " + typeof (results));
@@ -31,10 +31,9 @@ exports.get = function (req, res) {
     function first(callback) {
         User.findOne({
             'services.metrika.id': id
-        }, function (err, res) {
+        }, (err, res) => {
             console.error(err);
             if (err) {
-
                 res.end();
             };
 
@@ -68,14 +67,14 @@ exports.get = function (req, res) {
         console.log(date1 + " : " + date2);
 
         async.parallel({
-            one: function (callback2) {
+            one: (callback2) => {
 
                 var url = "https://api-metrika.yandex.ru/stat/v1/data/bytime?ids=" + id + "&metrics=ym:s:visits,ym:s:pageviews,ym:s:users&date1=" + date1 + "&date2=" + date2 + "&group=day&oauth_token=" + config.get('yametrika:oauth');
 
                 request({
                     url: url,
                     method: 'GET'
-                }, function (error, responce, result) {
+                }, (error, responce, result) => {
                     if (!error && responce.statusCode == 200) {
                         callback2(null, result);
                     } else {
@@ -83,7 +82,7 @@ exports.get = function (req, res) {
                     }
                 })
             }
-        }, function (err, results) {
+        }, (err, results) => {
             // --------------------------------- Добавить if (err) ---------------------------------- //
             callback(null, user, results);
         });

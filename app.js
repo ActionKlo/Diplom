@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, '/templates'));
 
 app.set('view engine', 'ejs');
 
-app.use(favicon(path.join(__dirname, 'public/img/favicon.ico')));
+app.use(favicon(path.join(__dirname, '/public/favicon.ico')));
 
 app.use(logger({
 	path: "log/logfile.txt"
@@ -45,8 +45,8 @@ app.use(session({
 	saveUninitialized: true
 }));
 
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'bower_components')));
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/bower_components')));
 
 require('./routes')(app);
 

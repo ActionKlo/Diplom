@@ -4,13 +4,12 @@ var mongoose = require('mongoose');
 var config = require('../config');
 var request = require('request')
 
-exports.get = function (req, res) {
+exports.get = (req, res) => {
     async.waterfall([
             first,
             second,
             third,
-        ],
-        function (err, user, id, result) {
+        ], (err, user, id, result) => {
             result = JSON.parse(result);
 
             res.render('admin', {
@@ -30,7 +29,7 @@ exports.get = function (req, res) {
             status: "client",
             active: true,
             'services.metrika.active': true
-        }, function (err, res) {
+        }, (err, res) => {
             if (err) {
                 res.end(err);
             };
@@ -88,7 +87,7 @@ exports.get = function (req, res) {
         request({
             method: 'GET',
             url: url
-        }, function (error, response, result) {
+        }, (error, response, result) => {
             // ------------------ добавить if (error) {}; ------------------
             
             console.log("Third function complete!");
