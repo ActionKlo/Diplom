@@ -24,6 +24,7 @@ module.exports = (app) => {
     app.get('/inquiries', checkSeo, require('./inquiries').get);
 
     app.get('/inquiries/:id', checkSeo, require('./inquiriesId').get);
+    app.post('/inquiries/:id', checkSeo, require('./inquiriesId').post);
 
     /* client */
     app.get('/id:id', checkAuth, require('./client').get);

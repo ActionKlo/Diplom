@@ -4,7 +4,6 @@ var async = require('async');
 exports.get = (req, res) => {
     var id = req.params.id
 
-
     async.waterfall([
         first,
         second
@@ -27,7 +26,7 @@ exports.get = (req, res) => {
     };
 
     function second(user, callback) {
-        console.log(user);
+        // console.log(user);
 
         if (!user.length) {
             return res.status(404).render('./404');

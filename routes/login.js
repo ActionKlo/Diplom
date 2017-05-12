@@ -52,11 +52,12 @@ exports.post = (req, res, next) => {
                     res.end();
                 }
             }
-        ],
-        (err, user) => {
+        ], (err, user) => {
             req.session.user = user._id;
             var status = [user.status, user._id];
-            res.send({'status': status});
+            res.send({
+                'status': status
+            });
             res.end();
         });
 };

@@ -9,10 +9,6 @@ module.exports = (req, res, next) => {
             _id: id,
             status: "seo"
         }, (err, user) => {
-            console.log(id);
-            console.error(err);
-            console.log(user);
-
             if (!user.length) {
                 return res.status(404).render('./404');
             };

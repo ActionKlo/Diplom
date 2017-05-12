@@ -6,7 +6,7 @@ exports.get = (req, res) => {
     async.waterfall([
         first
     ], (err, user) => {
-        console.log(user);
+        // console.log(user);
 
         var name = [],
             company = [],
@@ -31,7 +31,7 @@ exports.get = (req, res) => {
                 user[i].email
             ]);
         }
-        console.log(typeof(name) + typeof(company) + typeof(phone) + typeof(site) + typeof(email));
+        // console.log(typeof(name) + typeof(company) + typeof(phone) + typeof(site) + typeof(email));
         // name = JSON.parse(JSON.stringify(name));
 
         res.render('inquiries', {
