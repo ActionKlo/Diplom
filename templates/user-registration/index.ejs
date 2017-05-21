@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <form name="user-registration">
+                <h1>Регистрация нового пользователя</h1>
+                <div class="form-group">
+                    <input name="name" type="text" placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input name="company" type="text" placeholder="Компания" required>
+                </div>
+                <div class="form-group">
+                    <input name="site" type="text" placeholder="Сайт" required>
+                </div>
+                <div class="form-group">
+                    <input name="phone" type="number" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input name="email" type="email" placeholder="Адрес электронной почты" required>
+                </div>
+                <div class="form-group">
+                    <input name="mId" type="number" placeholder="Идентификатор счётчика" required>
+                </div>
+                <div id="error"></div>
+                <button type="submit" class="btn btn-success">Зарегистрировать</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/user-registration.js" type="text/javascript"></script>
+    <!--<script type="text/javascript">
+        $(document.forms['user-registration']).on('submit', function () {
+            console.log("УРА");
+            var form = $(this);
+
+            $('.error', form).html('');
+            // $(':submit').button("Загрузка");
+
+            $.ajax({
+                url: "/user-registration",
+                method: "POST",
+                data: form.serialize(),
+                complete: function () {
+                    $(":submit", form).button("reset");
+                },
+                statusCode: {
+                    "200": function () {
+                        form.html("Регистрация прошла успешно").addClass('alert-success');
+                        // window.location.href = "/login";
+                    },
+                    "201": function () {
+                        $("#error").text("Введенные пароли не совпадают!");
+                    },
+
+                    "403": function (jqXHR) {
+                        var error = JSON.parse(jqXHR.responseText);
+                        $('.error', form).html(error.message);
+                    }
+                }
+            });
+            return false;
+        });
+    </script>-->
+</body>
+
+</html>

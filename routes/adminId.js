@@ -5,6 +5,9 @@ var config = require('../config');
 var request = require('request');
 
 exports.get = (req, res) => {
+    var url = req.originalUrl;
+    console.time(url);
+
     var id = req.params.id
 
     async.waterfall([
@@ -12,13 +15,14 @@ exports.get = (req, res) => {
         second
     ], (err, user, results) => {
         var results = JSON.parse(results.one);
-        console.log(user + " : " + results);
-        console.log(typeof (user) + " : " + typeof (results));
+
         res.render('adminId', {
             id: id,
             user: user,
             results: results
         });
+
+        console.timeEnd(url);
     });
 
     /**
@@ -87,4 +91,5 @@ exports.get = (req, res) => {
             callback(null, user, results);
         });
     }
+    
 }

@@ -26,14 +26,19 @@ module.exports = (app) => {
     app.get('/inquiries/:id', checkSeo, require('./inquiriesId').get);
     app.post('/inquiries/:id', checkSeo, require('./inquiriesId').post);
 
+    app.get('/user-registration', checkSeo, require('./user-registration').get);
+    app.post('/user-registration', checkSeo, require('./user-registration').post);
+
     /* client */
     app.get('/id:id', checkAuth, require('./client').get);
+
+    app.get('/verification&token=:id', require('./user-verification').get);
+    app.post('/verification&token=:id', require('./user-verification').post);
 
     /* errors */
     app.get('/404', require('./404').get);
 
     app.use((req, res, next) => {
         res.status(404).render('./404');
-
     });
 }

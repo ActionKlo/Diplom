@@ -17,6 +17,6 @@ exports.post = (req, res, next) => {
     console.log("aId: " + aId);
     console.log("gId: " + gId);
 
-    console.log(req.params.id);
+    console.log(req.params);
 
 }

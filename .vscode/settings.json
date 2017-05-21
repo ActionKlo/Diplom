@@ -1,3 +1,30 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "extensions.autoUpdate": true,
+    "git.confirmSync": false,
+    "files.associations": {
+        "*.ejs": "html"
+    },
+    "window.restoreFullscreen": true,
+    "workbench.welcome.enabled": false,
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.openPositioning": "last",
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontSize": 11,
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": true,
+    "editor.dragAndDrop": true,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSaveDelay": 10,
+    "editor.parameterHints": false,
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#9ff",
+        "activityBarBadge.background": "#ff0033",
+        "activityBarBadge.foreground": "#000000"
+    },
+    "workbench.colorTheme": "One Monokai",
+    "editor.renderIndentGuides": true,
+    "editor.autoClosingBrackets": false
 }

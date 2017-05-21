@@ -3,7 +3,7 @@ $(document.forms['login-form']).on('submit', function () {
     var form = $(this);
 
     $('.error', form).html('');
-    $(':submit').button("loading");
+    $(':submit').button("фв");
 
     $.ajax({
         url: "/login",
