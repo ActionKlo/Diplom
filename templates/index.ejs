@@ -8,11 +8,66 @@
     <!--<link href="../css/reset.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-theme.css" rel="stylesheet">-->
-    <link rel="stylesheet/less" href="/bootstrap/less/bootstrap.less">
     <title>My App</title>
+    <style>
+        #p_prldr {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #9A12B3;
+            z-index: 30;
+        }
+
+        .contpre small {
+            font-size: 25px;
+        }
+
+        .contpre {
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            left: 50%;
+            top: 48%;
+            margin-left: -125px;
+            margin-top: -75px;
+            color: #fff;
+            font-size: 40px;
+            letter-spacing: -2px;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        #p_prldr .svg_anm {
+            position: absolute;
+            width: 41px;
+            height: 41px;
+            background: url(../img/oval.svg) center center no-repeat;
+            background-size: 41px;
+            margin: -16px 0 0 -16px;
+        }
+    </style>
+    <link rel="stylesheet/less" href="/bootstrap/less/bootstrap.less">
+    <script src="/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            var $preloader = $('#p_prldr'),
+                $svg_anm = $preloader.find('.svg_anm');
+            // $svg_anm.fadeOut();
+            $preloader.delay(8000).fadeOut('slow');
+        });
+    </script>
+    <script src="/less/dist/less.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
+    <div id="p_prldr">
+        <div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div>
+    </div>
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -36,7 +91,7 @@
                     <a class="btn btn-success" href="login/">Log in</button>
                     <a class="btn btn-danger" href="signup/">Sign up</a>
                 </form>
-                
+
             </div>
         </div>
     </nav>
@@ -74,10 +129,8 @@
         </footer>
     </div>
     <!-- /container -->
-    <script src="/jquery/dist/jquery.js"></script>
-    <script src="/less/dist/less.js"></script>
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/script.js"></script>
+    
+    
 </body>
 
 </html>

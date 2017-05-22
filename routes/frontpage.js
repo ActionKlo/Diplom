@@ -1,6 +1,6 @@
 var request = require('request');
 var fs = require('fs');
-
+var XLSX = require('xlsx');
 
 exports.get = (req, res) => {
     var url = req.originalUrl;
@@ -10,7 +10,20 @@ exports.get = (req, res) => {
 
 
 
+    
+    var workbook = XLSX.readFile('public/img/testAP1.xls');
+    var sheet_name_list = workbook.SheetNames;
+    var ws = workbook.Sheets[sheet_name_list[0]];
 
+    var r = XLSX.utils.sheet_to_json(ws, {header: 1});
+
+    for (var i = 6; i < r.length; i++) {
+        console.log(r[i][0] + " : " + r[i][2] + " / " + r[i][3]);
+    }
+
+    // r.forEach(function (r) {
+    //     console.log(r[0] + " : " + r[2] + " / " + r[3]);
+    // });
     
 
 

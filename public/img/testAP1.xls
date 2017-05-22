@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2017-05-22T00:20:05Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>21600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m860987431312">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#3773AC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m860987444832">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#3773AC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior ss:Color="#F4F4F4" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0CECE" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D0D0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0BFBF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0CDCD" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D9D9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0CFCF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0B5B5" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F09C9C" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0F0F0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D6D6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0E4E4" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D2D2" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D7D7" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0C8C8" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#A0F0A0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#BEF0BE" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0B2B2" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D8D8" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F09494" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#96F096" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0E1E1" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0DADA" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0E2E2" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0DCDC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0CBCB" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0D1D1" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F09090" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#E9E9E9"/>
+   </Borders>
+   <Interior ss:Color="#F0A5A5" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="dvdom.by">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="300"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="69.75" ss:Span="2"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Сайт: dvdom.by</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Дата отчета: 04.05.2017</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Запрос</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Частота</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Я.Гродно</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">G.Гродно</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tut.by</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="4" ss:StyleID="m860987431312"><Data ss:Type="String">Группа запросов: N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">купить двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">49</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">заказать двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">34</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">окна пвх в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери межкомнатные в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">260</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери входные в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">москитные сетки в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">купить окна в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">балкон под ключ в  гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ремонт квартир в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">отделка офисов в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">установка дверей в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">установка окон в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Лист2">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="174"/>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Запрос</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Частота</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Я.Гродно</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">G.Гродно</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tut.by</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="4" ss:StyleID="m860987444832"><Data ss:Type="String">Группа запросов: N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">купить двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">49</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">заказать двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">34</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">окна пвх в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери межкомнатные в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">260</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">двери входные в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">москитные сетки в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">купить окна в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">балкон под ключ в  гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">ремонт квартир в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">отделка офисов в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">установка дверей в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">установка окон в гродно</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R15C5</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <x:ExcelWorkbook/>
+</Workbook>
