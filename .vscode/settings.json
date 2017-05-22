@@ -25,6 +25,5 @@
         "activityBarBadge.foreground": "#000000"
     },
     "workbench.colorTheme": "One Monokai",
-    "editor.renderIndentGuides": true,
-    "editor.autoClosingBrackets": false
+    "editor.renderIndentGuides": true
 }
