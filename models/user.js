@@ -1,5 +1,4 @@
 var crypto = require('crypto');
-var bcrypt = require('bcrypt');
 var mongoose = require('../libs/mongoose'),
     Schema = mongoose.Schema;
 
