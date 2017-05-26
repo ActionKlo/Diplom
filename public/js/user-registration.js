@@ -17,8 +17,12 @@ $(document.forms['user-registration']).on('submit', function () {
                 form.html("Регистрация прошла успешно").addClass('alert-success');
                 // window.location.href = "/login";
             },
-            "500": function (err) {
+            "444": function (err) {
+                console.log(1);
                 console.log(err.responseText);
+                console.log(2);
+                console.log(err);
+
                 $("#error").text(err.responseText);
             },
 

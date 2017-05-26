@@ -18,6 +18,7 @@ module.exports = (app) => {
 
     /* seo */
     app.get('/seo', checkSeo, require('./seo').get);
+    app.post('/seo', checkSeo, require('./seo').post);
 
     app.get('/seo/:id', checkSeo, require('./seoId').get);
 

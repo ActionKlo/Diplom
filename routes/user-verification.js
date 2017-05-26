@@ -23,6 +23,7 @@ exports.post = (req, res, next) => {
     User.findById(id, (err, user) => {
         user.password = newPassword;
         user.active = true;
+        user.dateActive = new Date();
 
         user.save((err, resUser) => {
             if (err) {

@@ -11,9 +11,11 @@ exports.get = (req, res) => {
 
 
     
-    var workbook = XLSX.readFile('public/img/testAP1.xls');
+    var workbook = XLSX.readFile('reports/upload/uploadFile');
     var sheet_name_list = workbook.SheetNames;
     var ws = workbook.Sheets[sheet_name_list[0]];
+
+    console.log(sheet_name_list[0]);
 
     var r = XLSX.utils.sheet_to_json(ws, {header: 1});
 

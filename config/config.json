@@ -14,5 +14,8 @@
     },
     "yametrika": {
         "oauth": "AQAAAAAc5T6UAAQuh_qHr7JOGUyhmi72Rc5RVVM"
+    },
+    "regex": {
+        "url": "^(https?:\\/\\/)?([\\da-z\\.-]+\\.)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\/\\w \\.-]*)*\\/?$"
     }
 }

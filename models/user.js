@@ -3,14 +3,8 @@ var mongoose = require('../libs/mongoose'),
     Schema = mongoose.Schema;
 
 var schema = new Schema({
-    name: {
-        type: String,
-        unique: false,
-    },
-    company: {
-        type: String,
-        unique: false
-    },
+    name: String,
+    company: String,
     phone: {
         type: String,
         unique: true,
@@ -19,20 +13,18 @@ var schema = new Schema({
         type: String,
         unique: true,
     },
-    urlSite: {
+    site: {
         type: String,
         unique: true,
     },
-    hashedPassword: {
-        type: String,
-    },
-    salt: {
-        type: String,
-    },
+    hashedPassword: String,
+    salt: String,
     status: {
         type: String,
         default: "client"
     },
+    dateReg: Date,
+    dateActive: Date,
     active: {
         type: Boolean,
         default: false
@@ -43,26 +35,25 @@ var schema = new Schema({
     },
     services: {
         metrika: {
-            active: {
-                type: Boolean,
-                default: false
-            },
             id: {
                 type: String,
+                unique: true
             },
-            dateActive: {
-                type: Date
-            },
-            dateDeActive: {
-                type: Date,
-                default: null
-            }
+            create_time: Date
         },
-        webmaster: {
-            active: {
-                type: Boolean,
-                default: false
-            }
+        ap: {
+            reports: [{
+                date: Date,
+                data: [{
+                    inquiry: String,
+                    frequency: String,
+                    yp: String,
+                    gp: String
+                }],
+                sum: String,
+                discount: String,
+                totalSum: String
+            }]
         }
     }
 });
