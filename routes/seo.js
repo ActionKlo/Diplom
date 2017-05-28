@@ -54,19 +54,12 @@ exports.get = (req, res) => {
                             let m = user[i].services.ap.reports[user[i].services.ap.reports.length - 1].date.getMonth();
                             let f = true
 
-                            if (m === n) {
-                                console.log("Месяцы равны");
-                                console.log(m, " : ", n);
-                            } else {
-                                console.log("Месяцы не равны");
-                                console.log(typeof (m), " : ", typeof (n));
-                                console.log(m, " : ", n);
+                            if (m !== n) {
                                 f = false
                             }
                             report.push(f);
                         }
 
-                        console.log(report);
                         callback(null, report);
                     };
                 });
@@ -83,17 +76,27 @@ exports.get = (req, res) => {
 
 exports.post = (req, res, next) => {
     var form = new formidable.IncomingForm();
-    
+
     form.multiples = false;
 
     form.uploadDir = path.join('reports');
 
     form.on('file', function (field, file) {
+        var date = new Date();
+        date = date.getMonth() + "-" + date.getFullYear();
+        var newFileName = date + ".xls"
         console.log(file.path);
-        console.log(file.name);
-        console.log(file.type);
-        console.log(file.hash);
-        fs.rename(file.path, path.join(form.uploadDir, file.name + ".xls"));
+
+        // fs.exists('/etc/passwd', (exists) => {
+        //     console.log(exists ? 'it\'s there' : 'no passwd!');
+        // });
+        if (file.type !== "application/vnd.ms-excel" && file.type !== "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
+            fs.unlink(file.path);
+            res.status(500).send("Неверный тип файла");
+            return res.end();
+        }
+
+        fs.rename(file.path, path.join('reports/' + file.name, newFileName));
     });
 
     form.on('error', function (err) {
