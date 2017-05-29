@@ -16,8 +16,10 @@ mongoose.connection.on('open', function () {
 		async.parallel([
 			function (callback) {
 				var user1 = new User({
-					username: "User1",
-					password: "123"
+					name: "admin",
+					password: "123",
+					active: true,
+					status: "admin"
 				});
 				user1.save(function (err) {
 					callback(err, user1);
@@ -25,20 +27,30 @@ mongoose.connection.on('open', function () {
 			},
 			function (callback) {
 				var user2 = new User({
-					'username': "Test1",
-					'phonenumber': "testPhone1",
-					'email': "test1@test.com",
-					'urlSite': "test1.com",
-					'password': "123"
+					name: "seo",
+					password: "123",
+					active: true,
+					status: "seo"
 				});
 				user2.save(function (err) {
 					callback(err, user2);
 				});
 			},
 			function (callback) {
+				var dateReg = new Date();
+
 				var user3 = new User({
-					username: "User3",
-					password: "123"
+					name: "client1",
+					company: "nivasan",
+					site: "dvdom.by",
+					phone: "+375292863300",
+					email: "fingerbord2013@yandex.by",
+					password: "123",
+					dateReg: dateReg,
+					'services.metrika.id': "35848795",
+					'services.metrika.create_time': dateReg,
+					active: true,
+					status: "client"
 				});
 				user3.save(function (err) {
 					callback(err, user3);
